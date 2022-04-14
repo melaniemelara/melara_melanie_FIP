@@ -983,6 +983,72 @@ textarea {
     margin-left: -430px;
 }
 
+/* Cart Page */
+#cartBox {
+    margin-top: 40px;
+    grid-column: 1/6;
+    background-color: #BCAAAA;
+    display: block;
+    height: 500px;
+}
+
+#cartBox h2 {
+    display: block;
+    margin-top: 10px;
+    background-color: #999999;
+    border-radius: 5px;
+    text-align: center; 
+    padding: 5px 5px 5px 5px;
+}
+
+#checkoutBox {
+    margin-top: 40px;
+    grid-column: 8/11;
+    background-color:#BCAAAA;
+    padding: 5px 10px 5px 10px;
+    display: block;
+    margin-bottom: 200px;
+}
+
+#checkoutBox h3 {
+    display: block;
+    margin-top: 10px;
+    background-color: #999999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.block {
+    margin-top: 10px;
+    line-height: 60px;
+    display: contents;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+#seeDetails {
+    display: block;
+    width: 75px;
+    height: 30px;
+    background-color: #CCCCCC;
+    color: #000;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+}
+
+#payment {
+    display: block;
+    width: 75px;
+    height: 30px;
+    background-color: #CCCCCC;
+    color: #000;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+}
+
 
 
 
