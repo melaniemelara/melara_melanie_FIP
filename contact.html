@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A Look Into The Past</title>  
+  <link rel="stylesheet" href="css/main.css">  
+</head>
+
+<body>
+<main class="container grid">
+  <h1 class="hidden">A Look Into The Past</h1>
+        <header class="mainHeader grid">
+            <div class="headerLogo">
+                <img src="img/logo.svg" width="260" height="139" alt="page logo">
+            </div>
+            <nav class="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li class="selected"><a href="home.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="gallery.html">GALLERY/BLOG</a></li>
+                    <li><a href="cart.html">CART</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <nav class="categoryMenu">
+                <h2 class="hidden">Category Menu</h2>
+                <ul>
+                    <li><a href="brides.html">BRIDES</a></li>
+                    <li><a href="babies.html">BABIES</a></li>
+                    <li><a href="charity.html">CHARITY</a></li>
+                    <li><a href="others.html">OTHERS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="decorLine"></div>
+
+      <section class="mainContact grid">
+          <h2 class="hidden">Contact Form</h2>
+          <h2>Contact Us</h2>
+            <section id="contactArea" class="grid">
+              <h2 class="hidden">Contact Area</h2>
+              <form id="contactForm" method="post" action="form.php">
+                
+                  <label for="name" class="labelText">Name: (required)</label>
+                  <input type="text" required id="name" size="30" placeholder="Enter your name">
+                  
+                  <label for="lastname" class="labelText">Last Name: (required)</label>
+                  <input type="text" required id="lastname" size="30" placeholder="Enter your last name">
+                  
+                  <label for="email" class="labelText">Email: (required)</label>
+                  <input type="text" required id="email" size="30" placeholder="Enter your Email">
+                  
+                  <label for="comments" class="labelText"></label>
+                  <p id="commentsText">"Enter Your Comments or Questions in the Box Below"</p>
+                  <textarea id="comments" required cols="50" rows="8"></textarea>
+                  
+                  <input id="submitButton" type="submit" value="SUBMIT">
+              </form>
+            </section>
+      </section>
+
+          <section class="mapArea grid">
+            <h3>Visit At</h3>
+            <iframe id="map" class="grid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186904.77250176528!2d-81.38870629279442!3d42.949046910361126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C%20ON!5e0!3m2!1sen!2sca!4v1649945385945!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+      
+      
+      <div id="gradientContact" class="grid">
+        <footer class="mainFooter">
+            
+            <nav class="footerNav">
+                <h2 class="hidden">Footer Navigation</h2>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="cart.html">CART</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        
+            <div class="footerLogo grid">
+                <img class="footerLogo" src="img/logo.svg" width="220" height="120" alt="page logo">
+            </div>
+        </footer>
+        </div>
+  </main>
+</body>
+</html>
