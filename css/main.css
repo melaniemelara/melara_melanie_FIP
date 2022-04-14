@@ -892,6 +892,163 @@ a {
     color: #666666;
 }
 
+/* Contact Page */
+
+.mainContact {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    grid-column: 1/5;
+    background-color: #BCAAAA;
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.mainContact h2 {
+    grid-column: 1/4;
+    font-size: 30px;
+    color: #1B1464;
+}
+
+#contactArea {
+    grid-column: 1/4;
+    margin-left: -25px;
+}
+
+input, textarea {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+    background-color: #CCCCCC;
+    border: 1px solid #333;
+    color: #000;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+textarea {
+    margin-top: 5px;
+}
+
+#commentsText {
+    font-size: 20px;
+    width: 340px;
+    margin-bottom: 10px;
+}
+
+#comments {
+    width: 300px;
+    height: 200px;
+}
+
+#submitButton {
+    width: 75px;
+    height: 30px;
+    background-color: #CCCCCC;
+    border: 1px solid #FFCCCC;
+    color: #000000;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+}
+
+.mapArea {
+    grid-column: 8/13;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #BCAAAA;
+    margin-left: -60px;
+    margin-right: 20px;
+    margin-top: 40px;
+    width: 380px;
+    margin-bottom: 50px;
+}
+
+.mapArea h3 {
+    grid-column: 6/8;
+    font-size: 30px;
+    color: #1B1464;
+    margin-left:-390px;
+}
+
+#map {
+    grid-column: 6/10;
+    margin-left: -60px;
+    margin-top: -350px;
+    margin-left: -430px;
+}
+
+/* Cart Page */
+#cartBox {
+    margin-top: 40px;
+    grid-column: 1/6;
+    background-color: #BCAAAA;
+    display: block;
+    height: 500px;
+}
+
+#cartBox h2 {
+    display: block;
+    margin-top: 10px;
+    background-color: #999999;
+    border-radius: 5px;
+    text-align: center; 
+    padding: 5px 5px 5px 5px;
+}
+
+#checkoutBox {
+    margin-top: 40px;
+    grid-column: 8/11;
+    background-color:#BCAAAA;
+    padding: 5px 10px 5px 10px;
+    display: block;
+    margin-bottom: 200px;
+}
+
+#checkoutBox h3 {
+    display: block;
+    margin-top: 10px;
+    background-color: #999999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.block {
+    margin-top: 10px;
+    line-height: 60px;
+    display: contents;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+#seeDetails {
+    display: block;
+    width: 75px;
+    height: 30px;
+    background-color: #CCCCCC;
+    color: #000;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+}
+
+#payment {
+    display: block;
+    width: 75px;
+    height: 30px;
+    background-color: #CCCCCC;
+    color: #000;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+}
+
 
 
 
