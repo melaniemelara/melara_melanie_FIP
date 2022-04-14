@@ -319,6 +319,288 @@ a {
     display: contents;
 }
 
+/* Store Page */
+#discountBanner {
+    grid-column: 4/8;
+    background-color: #999966;
+    height: 75px;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#discountBanner h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(255, 251, 251);
+    text-align: justify;
+    display: inline;
+    position: absolute;
+}
+
+#decorLineStore1 {
+    border: 5px;
+    grid-column: 4/12;
+    height: 10px;
+    background-color: #996666;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 10px;
+}
+
+.newArv h3 {
+    grid-column: 1/4;
+    margin-left: 15px;
+    margin-top: -40px;
+    color: #4D4D4D; 
+    padding: 20px;
+    font-size: 25px;
+}
+
+.newDollsArrival {
+    grid-column: 1/12;
+    margin-bottom: 40px;
+}
+
+#newArrivals1 {
+    grid-column: 1/4;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+#newArrivals1 img {
+    border: 1px solid #666;
+    padding: 2px;
+    margin-right: 20px;
+}
+
+#newArrivals1 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+
+#newArrivals2 {
+    grid-column: 5/8;
+    margin-bottom: 30px;
+    margin-left: 350px;
+    margin-top: -325px;
+}
+
+#newArrivals2 img {
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+#newArrivals2 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+
+#newArrivals3 {
+    grid-column: 9/12;
+    margin-bottom: 30px;
+    margin-left: 650px;
+    margin-top: -305px;
+}
+
+#newArrivals3 img {
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+#newArrivals3 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+
+.mostWantedDolls {
+    grid-column: 1/12;
+    margin-bottom: 40px;
+}
+
+#mostWanted1 {
+    grid-column: 1/4;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+    
+#mostWanted1 img {
+    border: 1px solid #666;
+    padding: 2px;
+    margin-right: 20px;
+}
+
+#mostWanted1 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+
+#mostWanted2 {
+    grid-column: 5/8;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    margin-top: -305px;
+}
+    
+#mostWanted2 img {
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+#mostWanted2 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+
+#mostWanted3 {
+    grid-column: 9/12;
+    margin-bottom: 30px;
+    margin-left: 650px;
+    margin-top: -325px;
+}
+
+#mostWanted3 img {
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+#mostWanted3 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.onSaleDolls {
+    margin-bottom: 80px;
+}
+
+#onSale1 {
+    grid-column: 1/4;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+    
+#onSale1 img {
+    border: 1px solid #666;
+    padding: 2px;
+    margin-right: 20px;
+}
+
+#onSale1 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+
+#onSale2 {
+    grid-column: 5/8;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    margin-top: -285px;
+}
+    
+#onSale2 img {
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+#onSale2 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+}
+
+#onSale3 {
+    grid-column: 9/12;
+    margin-bottom: 30px;
+    margin-left: 650px;
+    margin-top: -305px;
+}
+
+#onSale3 img {
+    border: 1px solid #666;
+    padding: 2px;
+}
+
+#onSale3 p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    color: #666666;
+    margin-bottom: 60px;
+}
+
+#decorLineStore2 {
+    border: 5px;
+    grid-column: 1/9;
+    height: 10px;
+    background-color: #996666;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 220px;
+}
+
+.mostWant h3 {
+    grid-column: 10/12;
+    margin-left: 760px;
+    margin-top: -40px;
+    color: #4D4D4D; 
+    padding: 20px;
+    font-size: 25px;
+}
+
+#onSaleDecor1 {
+    grid-column: 2/5;
+    border: 5px;
+    height: 10px;
+    background-color: #996666;
+    margin-top: 30px;
+}
+
+#onSale h3 {
+    grid-column: 6/9;
+    font-size: 27px;
+    margin-top: 10px;
+    color: #736357;
+    margin-left: 20px;
+    margin-top: 21px;
+}
+
+#onSaleDecor2 {
+    grid-column: 9/12;
+    border: 5px;
+    height: 10px;
+    background-color:  #996666;
+    margin-top: 30px;
+}
+
+#loadMore {
+    width: 75px;
+    height: 30px;
+    background-color: #CCCCCC;
+    border: 1px solid #FFCCCC;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    margin-left: 430px;
+}
+
 
 
 
